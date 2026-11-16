@@ -76,11 +76,11 @@ Work through the labs in order. Each one builds on the previous.
 
 ## How to use this series
 
-- **Build the lab first** (Labs 1 and 2). Don't skip this; every later lab depends on it.
--  **Read the lab, then reproduce it.** Capture your own traffic rather than only reading the screenshots.
--  **Change one thing at a time.** Alter a setting, capture again, and compare the two captures.
--  **Keep your captures.** Name them descriptively so you can revisit and compare them later.
-- **Treat captures as evidence.** A frame in a capture shows what your sniffer heard, which is not always what the receiver heard.
+- **Build the lab first** (Labs 1 and 2). -  Don't skip this every later lab depends on it.
+-  **Read the lab, then reproduce it.** - Capture your own traffic rather than only reading the screenshots.
+-  **Change one thing at a time.** - Alter a setting, capture again, and compare the two captures.
+-  **Keep your captures.** - Name them descriptively so you can revisit and compare them later.
+- **Treat captures as evidence.** - A frame in a capture shows what your sniffer heard, which is not always what the receiver heard.
 
 ### Tips
 
