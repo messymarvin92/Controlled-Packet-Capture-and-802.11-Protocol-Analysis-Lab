@@ -73,17 +73,14 @@ Work through the labs in order. Each one builds on the previous.
 - **EAP-PEAP Validation** - Identifying 802.1X/EAP via the AKM suite, identifying the EAP type, what server certificate validation failure looks like, why skipping validation is risky, and exporting certificates from a capture
 - **Retries and Pseudo Headers** - The Retry bit in Frame Control, what retries can indicate, and using radio metadata (such as signal strength) to narrow down causes
 
-### Planned
-
-Additional labs will follow and will build on this foundation. This list will be updated as each one is published.
 
 ## How to use this series
 
-1. **Build the lab first** (Labs 1 and 2). Don't skip this; every later lab depends on it.
-2. **Read the lab, then reproduce it.** Capture your own traffic rather than only reading the screenshots.
-3. **Change one thing at a time.** Alter a setting, capture again, and compare the two captures.
-4. **Keep your captures.** Name them descriptively so you can revisit and compare them later.
-5. **Treat captures as evidence.** A frame in a capture shows what your sniffer heard, which is not always what the receiver heard.
+- **Build the lab first** (Labs 1 and 2). Don't skip this; every later lab depends on it.
+-  **Read the lab, then reproduce it.** Capture your own traffic rather than only reading the screenshots.
+-  **Change one thing at a time.** Alter a setting, capture again, and compare the two captures.
+-  **Keep your captures.** Name them descriptively so you can revisit and compare them later.
+- **Treat captures as evidence.** A frame in a capture shows what your sniffer heard, which is not always what the receiver heard.
 
 ### Tips
 
@@ -99,17 +96,9 @@ This series is for learning protocol analysis in a **controlled lab you own**.
 - The labs focus on `airmon-ng` and `airodump-ng`. They intentionally do not use the injection or key-cracking tools in the aircrack-ng suite.
 - Regulatory rules vary by country. Set the regulatory domain for your location (the labs use US) and stay within it.
 
-## Adding a new lab
+### Planned
 
-To keep the series consistent, each new lab should include:
-
-- **A short introduction** stating what the lab covers and why it matters
-- **Lab setup**: the physical and logical diagrams, plus any configuration files used
-- **Capture steps**: how to reproduce the behavior
-- **Analysis**: the Wireshark display filters and fields to look at, with screenshots
-- **Conclusion** and a pointer to the next lab
-
-Add the new lab to the list above in order.
+Additional labs will follow and will build on this foundation. This list will be updated as each one is published.
 
 ## Acknowledgements
 
