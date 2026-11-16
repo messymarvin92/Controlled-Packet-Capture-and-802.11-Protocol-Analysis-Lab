@@ -105,3 +105,6 @@ Additional labs will follow and will build on this foundation. This list will be
 ## Acknowledgements
 
 Thanks to the wireless community for the shared Wireshark profiles that make analysis faster, including those from WLAN Professionals and Rasika Nayanajith (mrncciew.com).
+
+
+**Author:** Don Lewis ([@messymarvin92](https://github.com/messymarvin92))
