@@ -1,0 +1,6 @@
+# Never commit generated keys or certificates
+*.key
+*.pem
+*.csr
+*.srl
+*.ext

@@ -1,0 +1,24 @@
+# hostapd.eap_user - PCAP Lab sample
+#
+# Used by hostapd_8021x.conf (eap_user_file=/etc/hostapd/hostapd.eap_user)
+# Copy to: /etc/hostapd/hostapd.eap_user
+#
+# Format: "identity"   EAP-method(s)   "password"   [2 = Phase 2 / inner tunnel]
+#
+# ---------------------------------------------------------------------------
+# Phase 1 (outer tunnel)
+# Allow any outer/anonymous identity to start PEAP.
+# ---------------------------------------------------------------------------
+*               PEAP
+
+# ---------------------------------------------------------------------------
+# Phase 2 (inner tunnel)
+#
+# Left commented out on purpose. This reproduces the EAP-PEAP lab, where the
+# client builds the outer tunnel (cert NOT validated) but fails Phase 2 because
+# the user's credentials are not configured on the authentication server.
+#
+# Uncomment the line below to let Phase 2 succeed with the lab client configs
+# (identity="MyName", password="mypassword").
+# ---------------------------------------------------------------------------
+#"MyName"       MSCHAPV2        "mypassword"    [2]
