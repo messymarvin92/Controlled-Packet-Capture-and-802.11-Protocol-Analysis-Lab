@@ -73,6 +73,7 @@ Work through the labs in order. Each one builds on the previous.
 - **EAP-PEAP Validation** - Identifying 802.1X/EAP via the AKM suite, identifying the EAP type, what server certificate validation failure looks like, why skipping validation is risky, and exporting certificates from a capture
 - **Retries and Pseudo Headers** - The Retry bit in Frame Control, what retries can indicate, and using radio metadata (such as signal strength) to narrow down causes
 - **WPA3-SAE vs WPA2-PSK** - Identifying SAE in the beacon (AKM 8 and the PMF bits), the SAE Commit/Confirm exchange before association, why a failed SAE authentication leaves nothing to crack offline, and transition mode
+- **WMM QoS vs Legacy DCF** - Reading the WMM Parameter Element in the beacon (OUI 00:50:F2, type 2) and how each Access Category’s EDCA values (AIFSN, CWmin/CWmax, TXOP) let voice reach the air ahead of bulk traffic. Then tracing DSCP marking through to the User Priority in the QoS Control field of QoS Data frames (EF → UP 6/AC_VO, AF41 → UP 4/AC_VI, DSCP 0 → UP 0/AC_BE), and turning WMM off, after which frames fall back to plain Data frames with no prioritization.
 
 
 ## How to use this series
