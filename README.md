@@ -72,6 +72,7 @@ Work through the labs in order. Each one builds on the previous.
 - **WPA-PSK Analysis** - Reading the Frame Control and MAC header in a real capture, then comparing a successful 4-way handshake with a failed one caused by a wrong PSK
 - **EAP-PEAP Validation** - Identifying 802.1X/EAP via the AKM suite, identifying the EAP type, what server certificate validation failure looks like, why skipping validation is risky, and exporting certificates from a capture
 - **Retries and Pseudo Headers** - The Retry bit in Frame Control, what retries can indicate, and using radio metadata (such as signal strength) to narrow down causes
+- **WPA3-SAE vs WPA2-PSK** - Identifying SAE in the beacon (AKM 8 and the PMF bits), the SAE Commit/Confirm exchange before association, why a failed SAE authentication leaves nothing to crack offline, and transition mode
 
 
 ## How to use this series
